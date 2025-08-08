@@ -33,7 +33,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: install git-cliff
-        uses: taiki-e/install-action@v2.57.1
+        uses: taiki-e/install-action@v2.58.3
         with:
           tool: git-cliff
       - name: create changelog comment
@@ -56,7 +56,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: install git-cliff
-        uses: taiki-e/install-action@v2.57.1
+        uses: taiki-e/install-action@v2.58.3
         with:
           tool: git-cliff
       - name: generate changelog comment
