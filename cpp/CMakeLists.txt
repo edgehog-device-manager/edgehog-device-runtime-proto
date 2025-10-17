@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION 3.15)
 
 # Project definition
-project(edgehog-device-runtime-proto VERSION 0.10.0 LANGUAGES CXX)
+project(edgehog-device-runtime-proto VERSION 0.5.0 LANGUAGES CXX)
 
 # Setup libraries
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
