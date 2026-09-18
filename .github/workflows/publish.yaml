@@ -32,7 +32,7 @@ jobs:
           TAG_NAME=${GITHUB_REF#refs/tags/}
           echo "The tag name is $TAG_NAME"
           echo "TAG_NAME=$TAG_NAME" >> "$GITHUB_ENV"
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - name: install git-cliff
